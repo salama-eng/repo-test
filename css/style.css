@@ -1,0 +1,26 @@
+.main input
+{
+    
+    display:grid;
+ 
+    width: 90%;
+    
+ 
+
+}
+.main
+{
+ 
+
+    width: 50%;
+    color: wheat;
+    background-color:rgba(0, 0, 0, .5) ;
+
+  
+}
+
+body {
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    font-family: 'Poppins', sans-serif;
+}
+
