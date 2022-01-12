@@ -19,8 +19,22 @@
   
 }
 
+
+.dark-theme
+{
+    --color1:rgb(211, 0, 0);
+    --color2:rgb(167, 151, 151);
+
+}
 body {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    background-color:var(--color1);
+    color:var(--color2);
+   /* background: linear-gradient(to right, #0f2027, #203a43, #2c5364);*/
     font-family: 'Poppins', sans-serif;
+}
+#icon img
+{
+    width: 30px;
+    cursor: pointer;
 }
 
